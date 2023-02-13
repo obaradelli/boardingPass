@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  background: linear-gradient(135deg, #8257e5 0%, #271a45 100%);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.card {
+  width: 327px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.card-header {
+  width: 100%;
+
+  border-radius: 24px;
+  padding: 24px 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+
+  background-color: #fff;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+.card-header--one {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.info-2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.card-header--two {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.card-header--two-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(0, 0, 0, 0.64);
+}
+.card-header--two-span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.alignImg {
+  height: fit-content;
+  width: fit-content;
+
+  margin-top: 29.5px;
+}
+
+.--left {
+  display: flex;
+
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.card-divider {
+  width: 300px;
+  background-color: #fff;
+}
+
+.card-body {
+  width: 100%;
+
+  border-radius: 24px;
+  padding: 24px 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  gap: 24px;
+
+  background-color: #fff;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+.card-footer {
+  width: 100%;
+
+  border-radius: 24px;
+  padding: 24px 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 24px;
+
+  background-color: #fff;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+.info-column--grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  gap: 20px;
+}
+
+.gap16 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-3 {
+  padding: 4px 8px;
+  gap: 8px;
+
+  width: 54px;
+  height: 27px;
+
+  background: #633bbc;
+  border-radius: 8px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.fit-content {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-center {
+  align-self: center;
+}
+
+.info-4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(0, 0, 0, 0.64);
+
+  margin-top: 2px;
+}
+
+.div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-info {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-info {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  opacity: 0.64;
+
+  margin-top: 20px;
+  text-align: center;
+}
